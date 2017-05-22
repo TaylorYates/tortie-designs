@@ -1,0 +1,25 @@
+.product-grid {
+  @extend %grid;
+}
+
+.product {
+  @extend %grid-cell;
+  width: grid-span(4);
+  text-align: center;
+
+  a {
+    color: $black;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  @media screen and (max-width: 835px) {
+    width: grid-span(12);
+  }
+}
+
+.product-image {
+  max-width: 300px;
+}

@@ -1,0 +1,24 @@
+.block {
+  @extend %grid;
+}
+
+.contact {
+  width: 100%;
+}
+
+.block__tile {
+  @extend %grid-cell;
+  width: grid-span(6);
+
+  @media screen and (max-width: 835px) {
+    width: grid-span(12);
+  }
+
+  p {
+    text-align: right;
+
+    @media screen and (max-width: 835px) {
+      text-align: left;
+    }
+  }
+}

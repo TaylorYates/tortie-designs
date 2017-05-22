@@ -1,0 +1,27 @@
+.banana {
+  text-align: justify !important;
+  text-justify: distribute-all-lines;
+  font-size: 0 !important; }
+  .banana > * {
+    text-align: left;
+    font-size: medium; }
+  .banana:after {
+    content: '';
+    display: inline-block;
+    width: 100%; }
+
+.banana__div--primary, .banana__div--secondary {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%; }
+
+.banana {
+  color: yellow;
+  line-height: 30px;
+  background: red; }
+
+.banana__div--primary {
+  width: 31.12583%; }
+
+.banana__div--secondary {
+  width: 65.56291%; }

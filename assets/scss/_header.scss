@@ -1,0 +1,46 @@
+header {
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+nav {
+  ul {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    background-color: $white;
+  }
+}
+
+.hero-nav-link {
+  display: inline-block;
+  text-align: center;
+}
+
+.hero-nav-link a {
+  display: inline-block;
+  color: $black;
+  padding: 20px 50px;
+  background-color: $white;
+
+  &:hover {
+    background-color: $orange;
+    color: $white;
+  }
+
+  @media screen and (max-width: 888px) {
+    padding: 10px;
+  }
+}
+
+.active a {
+  background-color: $white;
+  color: $orange;
+}
