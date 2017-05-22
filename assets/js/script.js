@@ -25,6 +25,10 @@ tortieApp.config(function($routeProvider) {
 
   .when('/shop', {
     template: '<shop></shop>'
+  })
+
+  .when('/press', {
+    template: '<press></press>'
   });
 });
 
@@ -73,7 +77,7 @@ tortieApp.component('contact',
 
 tortieApp.component('wholesale', {
   controller: function() {
-    this.message = 'wholesaling yay';
+
   },
   templateUrl: 'views/wholesale.html',
 });
@@ -196,4 +200,28 @@ tortieApp.component('shop', {
     ];
   },
   templateUrl: 'views/shop.html',
+});
+
+tortieApp.component('press', {
+  controller: function() {
+    this.media = [
+      {
+        name: 'Made It Australia Instagram',
+        image: 'assets/img/press/madeit_5.png',
+      },
+      {
+        name: 'Made It Australia Editors Pick',
+        image: 'assets/img/press/madeit_2.png',
+      },
+      {
+        name: 'Made It Australia Editors Pick',
+        image: 'assets/img/press/madeit_3.png',
+      },
+      {
+        name: 'Made It Australia Instagram',
+        image: 'assets/img/press/madeit_4.png',
+      },
+    ];
+  },
+  templateUrl: 'views/press.html',
 });

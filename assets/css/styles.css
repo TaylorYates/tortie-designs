@@ -1,16 +1,16 @@
-main, .content, .product-grid, .block {
+main, .content, .product-grid, .block, .media-grid {
   text-align: justify !important;
   text-justify: distribute-all-lines;
   font-size: 0 !important; }
-  main > *, .content > *, .product-grid > *, .block > * {
+  main > *, .content > *, .product-grid > *, .block > *, .media-grid > * {
     text-align: left;
     font-size: medium; }
-  main:after, .content:after, .product-grid:after, .block:after {
+  main:after, .content:after, .product-grid:after, .block:after, .media-grid:after {
     content: '';
     display: inline-block;
     width: 100%; }
 
-.product, .block__tile {
+.product, .block__tile, .media {
   vertical-align: top;
   display: inline-block;
   width: 100%; }
@@ -178,3 +178,13 @@ nav ul {
     @media screen and (max-width: 835px) {
       .block__tile p {
         text-align: left; } }
+
+.media {
+  width: 48.34437%;
+  text-align: center; }
+  @media screen and (max-width: 835px) {
+    .media {
+      width: 100%; } }
+
+.item-image {
+  max-width: 450px; }
