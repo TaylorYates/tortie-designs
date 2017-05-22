@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="tortieApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="Handmade Polymer Clay Jewellery in Melbourne, Australia.">
+    <meta name="keywords" content="Polymer Clay Jewellery, Beaded Necklace, Handmade">
+    <meta name="author" content="Taylor Yates at Tortie Designs">
+    <title>Tortie Designs</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sacramento" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
+    <base href="/">
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <img class="logo" src="assets/img/logo.png" alt="Tortie Designs logo" />
+      </header>
+      <nav>
+        <ul>
+          <li class="hero-nav-link" ng-class="{active: $location.path() === '/'}"><a href="#">Home</a></li>
+          <li class="hero-nav-link" ng-class="{active: $location.path() === '/about'}"><a href="#!/about">About</a></li>
+          <li class="hero-nav-link" ng-class="{active: $location.path() === '/shop'}"><a href="#!/shop">Shop</a></li>
+          <li class="hero-nav-link" ng-class="{active: $location.path() === '/wholesale'}"><a href="#!/wholesale">Wholesale</a></li>
+          <li class="hero-nav-link" ng-class="{active: $location.path() === '/contact'}"><a href="#!/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="content page__load--fadein" ng-view>
+
+      </div>
+
+      <div class="social-grid page__load--fadein">
+        <h2>Follow Tortie Designs:</h2>
+        <div class="social-grid-icons">
+          <a href="https://bit.ly/tortiedesigns" target="_blank">
+            <img class="social-icon" src="assets/img/icons/shop.png"alt="Tortie Designs Etsy" />
+          </a>
+          <a href="https://www.facebook.com/tortiedesigns" target="_blank">
+            <img class="social-icon" src="assets/img/icons/facebook.png"alt="Tortie Designs Facebook" />
+          </a>
+          <a href="https://www.instagram.com/tortiedesigns" target="_blank">
+            <img class="social-icon" src="assets/img/icons/instagram.png"alt="Tortie Designs Instagram" />
+          </a>
+        </div>
+      </div>
+
+    </main>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="/node_modules/angular-route/angular-route.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/functions.js"></script>
+  </body>
+</html>
