@@ -188,3 +188,6 @@ nav ul {
 
 .item-image {
   max-width: 450px; }
+  @media screen and (max-width: 835px) {
+    .item-image {
+      max-width: 300px; } }
