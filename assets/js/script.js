@@ -87,7 +87,7 @@ tortieApp.component('shop', {
     this.products = [
       {
         name: 'Daydream Necklace',
-        image: 'assets/img/products/daydream.JPG',
+        image: 'assets/img/products/daydream.jpg',
         price: 27,
         description: 'Sweet pastel goodness. With a tassel.',
         href: 'http://bit.ly/tortiedaydream',
