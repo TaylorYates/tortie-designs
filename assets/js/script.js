@@ -49,10 +49,10 @@ tortieApp.component('home', {
           href: 'https://bit.ly/tortiesunshine',
         },
         {
-          name: 'Sweetie Necklace',
-          image: 'assets/img/products/sweetie.png',
-          price: 30,
-          href: 'https://bit.ly/tortiesweetie',
+          name: 'Daydream Necklace',
+          image: 'assets/img/products/daydream.JPG',
+          price: 27,
+          href: 'http://bit.ly/tortiedaydream',
         }
     ];
   },
@@ -89,7 +89,7 @@ tortieApp.component('shop', {
         name: 'Daydream Necklace',
         image: 'assets/img/products/daydream.JPG',
         price: 27,
-        description: 'Sweet pastel goodness. With a tassle.',
+        description: 'Sweet pastel goodness. With a tassel.',
         href: 'http://bit.ly/tortiedaydream',
       },
       {
