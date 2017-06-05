@@ -50,7 +50,7 @@ tortieApp.component('home', {
         },
         {
           name: 'Daydream Necklace',
-          image: 'assets/img/products/daydream.JPG',
+          image: 'assets/img/products/daydream.jpg',
           price: 27,
           href: 'http://bit.ly/tortiedaydream',
         }
