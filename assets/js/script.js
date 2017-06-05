@@ -61,7 +61,7 @@ tortieApp.component('home', {
 
 tortieApp.component('about', {
   controller: function() {
-    this.message = 'Contact us! JK. This is just a demo.';
+  
   },
   templateUrl: 'views/about.html'
 });
@@ -69,7 +69,7 @@ tortieApp.component('about', {
 tortieApp.component('contact',
   {
     controller: function() {
-      this.message = 'Contact us! JK. This is just a demo.';
+
     },
     templateUrl: 'views/contact.html',
   }
