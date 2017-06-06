@@ -39,13 +39,13 @@ tortieApp.component('home', {
         {
           name: 'Glitter Bomb Necklace',
           image: 'assets/img/products/glitter-bomb.png',
-          price: 30,
+          price: 26,
           href: 'https://bit.ly/tortieglitter',
         },
         {
           name: 'Sunshine Necklace',
           image: 'assets/img/products/sunshine.png',
-          price: '30 to $35',
+          price: '26 to $31',
           href: 'https://bit.ly/tortiesunshine',
         },
         {
@@ -61,7 +61,7 @@ tortieApp.component('home', {
 
 tortieApp.component('about', {
   controller: function() {
-  
+
   },
   templateUrl: 'views/about.html'
 });
@@ -95,42 +95,42 @@ tortieApp.component('shop', {
       {
         name: 'Glitter Bomb Necklace',
         image: 'assets/img/products/glitter-bomb.png',
-        price: 30,
+        price: 26,
         description: 'Exactly what it sounds like - bright, shiny and of course, glittery.',
         href: 'https://bit.ly/tortieglitter',
       },
       {
         name: 'Sunshine Necklace',
         image: 'assets/img/products/sunshine.png',
-        price: '30 - $35',
+        price: '26 - $31',
         description: "Saffron & Periwinkle with a choice of metal chain or cotton cord.",
         href: 'https://bit.ly/tortiesunshine',
       },
       {
         name: 'Sweetie Necklace',
         image: 'assets/img/products/sweetie.png',
-        price: 30,
+        price: 25,
         description: "Compliments pretty much any outfit with a pop of pastel and neutral wooden beads.",
         href: 'https://bit.ly/tortiesweetie',
       },
       {
         name: 'Stormy Days Necklace',
         image: 'assets/img/products/stormy-days.png',
-        price: 28,
+        price: 25,
         description: "Inspired by the all-over-the-place weather of Melbourne, Australia.",
         href: 'https://www.etsy.com/au/listing/526920977/',
       },
       {
         name: 'Colour Bomb Necklace',
         image: 'assets/img/products/colour-bomb.png',
-        price: 30,
+        price: 26,
         description: "Rainbow colours and silver glitter? Yes please.",
         href: 'https://www.etsy.com/au/listing/516784020/',
       },
       {
         name: 'Kitten Necklace',
         image: 'assets/img/products/kitten.png',
-        price: 30,
+        price: 26,
         description: "Directly inspired by the colouring of Tortiseshell cats.",
         href: 'https://www.etsy.com/au/listing/516782596/',
       },
@@ -158,7 +158,7 @@ tortieApp.component('shop', {
       {
         name: 'Green Apple Necklace',
         image: 'assets/img/products/green-apple.png',
-        price: 28,
+        price: 23,
         description: "Don't the green beads look like little apples?",
         href: 'https://www.etsy.com/au/listing/528137967/',
       },
@@ -172,7 +172,7 @@ tortieApp.component('shop', {
       {
         name: 'Pop Necklace',
         image: 'assets/img/products/pop.png',
-        price: 28,
+        price: 23,
         description: "Reminiscent of Paddle Pops.",
         href: 'https://www.etsy.com/au/listing/514311594/',
       },
@@ -215,18 +215,42 @@ tortieApp.component('press', {
       {
         name: 'Made It Australia Instagram',
         image: 'assets/img/press/madeit_5.png',
+        href: 'https://www.instagram.com/p/BT-cfjfBnsN/?taken-by=madeit',
       },
       {
         name: 'Made It Australia Editors Pick',
         image: 'assets/img/press/madeit_2.png',
+        href: 'https://madeit.com.au/',
       },
       {
         name: 'Made It Australia Editors Pick',
         image: 'assets/img/press/madeit_3.png',
+        href: 'https://madeit.com.au/',
       },
       {
         name: 'Made It Australia Instagram',
         image: 'assets/img/press/madeit_4.png',
+        href: 'https://www.instagram.com/madeit/',
+      },
+      {
+        name: 'Aus Handmade Instagram',
+        image: 'assets/img/press/aushandmade_1.png',
+        href: 'https://www.instagram.com/p/BUqWGulFd4u/?taken-by=aushandmade',
+      },
+      {
+        name: 'Aus Handmade Instagram',
+        image: 'assets/img/press/aushandmade_2.png',
+        href: 'https://www.instagram.com/aushandmade/',
+      },
+      {
+        name: 'Glitter Haven Instagram',
+        image: 'assets/img/press/glitter_1.png',
+        href: 'https://www.instagram.com/p/BUbPfZJjzV2/?taken-by=glitterhaven',
+      },
+      {
+        name: 'Love Australian Handmade Instagram',
+        image: 'assets/img/press/loveaushm_1.png',
+        href: 'https://www.instagram.com/p/BUjYdy4BDy-/?taken-by=loveaustralianhandmade',
       },
     ];
   },

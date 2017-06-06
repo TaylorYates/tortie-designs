@@ -7,3 +7,19 @@ h2 {
   font-size: 36px;
   display: inline-block;
 }
+
+.ldh {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+
+  @media screen and (max-width: 888px) {
+    margin-top: 20px;
+  }
+}
+
+svg {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}

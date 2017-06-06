@@ -4,7 +4,7 @@
 
 .media {
   @extend %grid-cell;
-  width: grid-span(6);
+  width: grid-span(4);
   text-align: center;
 
   @media screen and (max-width: 835px) {
@@ -13,9 +13,5 @@
 }
 
 .item-image {
-  max-width: 450px;
-
-  @media screen and (max-width: 835px) {
-    max-width: 300px;
-  }
+  max-width: 300px;
 }

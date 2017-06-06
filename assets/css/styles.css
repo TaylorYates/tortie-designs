@@ -109,6 +109,19 @@ h2 {
   font-size: 36px;
   display: inline-block; }
 
+.ldh {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px; }
+  @media screen and (max-width: 888px) {
+    .ldh {
+      margin-top: 20px; } }
+
+svg {
+  display: block;
+  width: 200px;
+  margin: 0 auto; }
+
 header {
   text-align: center; }
 
@@ -180,14 +193,11 @@ nav ul {
         text-align: left; } }
 
 .media {
-  width: 48.34437%;
+  width: 31.12583%;
   text-align: center; }
   @media screen and (max-width: 835px) {
     .media {
       width: 100%; } }
 
 .item-image {
-  max-width: 450px; }
-  @media screen and (max-width: 835px) {
-    .item-image {
-      max-width: 300px; } }
+  max-width: 300px; }
