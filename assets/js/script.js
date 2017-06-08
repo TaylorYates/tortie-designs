@@ -116,7 +116,7 @@ tortieApp.component('shop', {
       {
         name: 'Stormy Days Necklace',
         image: 'assets/img/products/stormy-days.png',
-        price: 30,
+        price: 28,
         description: "Inspired by the all-over-the-place weather of Melbourne, Australia.",
         href: 'https://www.etsy.com/au/listing/526920977/',
       },
@@ -160,7 +160,7 @@ tortieApp.component('shop', {
         image: 'assets/img/products/green-apple.png',
         price: 28,
         description: "Don't the green beads look like little apples?",
-        href: 'https://www.etsy.com/au/listing/528127967/',
+        href: 'https://www.etsy.com/au/listing/528137967/',
       },
       {
         name: 'Pink Spotted Triangle Studs',
