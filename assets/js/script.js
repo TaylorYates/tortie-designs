@@ -252,6 +252,11 @@ tortieApp.component('press', {
         image: 'assets/img/press/loveaushm_1.png',
         href: 'https://www.instagram.com/p/BUjYdy4BDy-/?taken-by=loveaustralianhandmade',
       },
+      {
+        name: 'Made Local Melbourne Instagram',
+        image: 'assets/img/press/made-local-melb.png',
+        href: 'https://www.instagram.com/p/BVX_yu-FBF4/?taken-by=madelocalmelbourne',
+      },
     ];
   },
   templateUrl: 'views/press.html',
