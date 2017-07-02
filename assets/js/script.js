@@ -36,24 +36,25 @@ tortieApp.config(function($routeProvider) {
 tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
-        {
-          name: 'Glitter Bomb Necklace',
-          image: 'assets/img/products/glitter-bomb.png',
-          price: 32,
-          href: 'https://tortiedesigns.patternbyetsy.com/listing/515569114/',
-        },
-        {
-          name: 'Sunshine Necklace',
-          image: 'assets/img/products/sunshine.png',
-          price: 32,
-          href: 'https://tortiedesigns.patternbyetsy.com/listing/530858333/',
-        },
-        {
-          name: 'Daydream Necklace',
-          image: 'assets/img/products/daydream.jpg',
-          price: 30,
-          href: 'https://tortiedesigns.patternbyetsy.com/listing/521152712/',
-        }
+      {
+        name: 'Fire and Ice Studs',
+        image: 'assets/img/products/fireandice.png',
+        price: 14.99,
+        description: 'Gorgeous cool beige and rose gold bezel studs.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
+      },
+      {
+        name: 'Glitter Bomb Necklace',
+        image: 'assets/img/products/glitter-bomb.png',
+        price: 32,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/515569114/',
+      },
+      {
+        name: 'Sunshine Necklace',
+        image: 'assets/img/products/sunshine.png',
+        price: 32,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/530858333/',
+      }
     ];
   },
   templateUrl: 'views/home.html'
@@ -86,11 +87,11 @@ tortieApp.component('shop', {
   controller: function() {
     this.products = [
       {
-        name: 'Daydream Necklace',
-        image: 'assets/img/products/daydream.jpg',
-        price: 30,
-        description: 'Sweet pastel goodness. With a tassel.',
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/521152712/',
+        name: 'Fire and Ice Studs',
+        image: 'assets/img/products/fireandice.png',
+        price: 14.99,
+        description: 'Gorgeous cool beige and rose gold bezel studs.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
       },
       {
         name: 'Glitter Bomb Necklace',
@@ -105,6 +106,13 @@ tortieApp.component('shop', {
         price: 32,
         description: "Saffron & Periwinkle with a choice of metal chain or cotton cord.",
         href: 'https://tortiedesigns.patternbyetsy.com/listing/530858333/',
+      },
+      {
+        name: 'Daydream Necklace',
+        image: 'assets/img/products/daydream.jpg',
+        price: 30,
+        description: 'Sweet pastel goodness. With a tassel.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/521152712/',
       },
       {
         name: 'Sweetie Necklace',
