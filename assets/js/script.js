@@ -37,7 +37,7 @@ tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
       {
-        name: 'Fire and Ice Studs',
+        name: 'Ice and Fire Studs',
         image: 'assets/img/products/fireandice.png',
         price: 14.99,
         description: 'Gorgeous cool beige and rose gold bezel studs.',
@@ -87,7 +87,7 @@ tortieApp.component('shop', {
   controller: function() {
     this.products = [
       {
-        name: 'Fire and Ice Studs',
+        name: 'Ice and Fire Studs',
         image: 'assets/img/products/fireandice.png',
         price: 14.99,
         description: 'Gorgeous cool beige and rose gold bezel studs.',
