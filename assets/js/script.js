@@ -38,7 +38,7 @@ tortieApp.component('home', {
     this.topProducts = [
       {
         name: 'Ice and Fire Studs',
-        image: 'assets/img/products/fireandice.png',
+        image: 'assets/img/products/iceandfire.png',
         price: 14.99,
         description: 'Gorgeous cool beige and rose gold bezel studs.',
         href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
@@ -88,7 +88,7 @@ tortieApp.component('shop', {
     this.products = [
       {
         name: 'Ice and Fire Studs',
-        image: 'assets/img/products/fireandice.png',
+        image: 'assets/img/products/iceandfire.png',
         price: 14.99,
         description: 'Gorgeous cool beige and rose gold bezel studs.',
         href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
