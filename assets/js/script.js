@@ -37,10 +37,27 @@ tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
       {
+        name: 'Sandy Necklace',
+        image: 'assets/img/products/collection-2/sandy.jpg',
+        price: 45,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/542460439/',
+      },
+      {
+        name: 'Frenchy Necklace',
+        image: 'assets/img/products/collection-2/frenchy.jpg',
+        price: 40,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/529063576/',
+      },
+      {
+        name: 'Marty Necklace',
+        image: 'assets/img/products/collection-2/marty.jpg',
+        price: 32,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/528658860/',
+      },
+      {
         name: 'Ice and Fire Studs',
         image: 'assets/img/products/iceandfire.png',
         price: 14.99,
-        description: 'Gorgeous cool beige and rose gold bezel studs.',
         href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
       },
       {
@@ -86,6 +103,55 @@ tortieApp.component('wholesale', {
 tortieApp.component('shop', {
   controller: function() {
     this.products = [
+      {
+        name: 'Sandy Necklace',
+        image: 'assets/img/products/collection-2/sandy.jpg',
+        price: 45,
+        description: 'Not your plain old Sandra Dee.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/542460439/',
+      },
+      {
+        name: 'Frenchy Necklace',
+        image: 'assets/img/products/collection-2/frenchy.jpg',
+        price: 40,
+        description: 'Pastel pink, mustard and grey perfection.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/529063576/',
+      },
+      {
+        name: 'Marty Necklace',
+        image: 'assets/img/products/collection-2/marty.jpg',
+        price: 32,
+        description: 'Colorful and a bit glam.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/528658860/',
+      },
+      {
+        name: 'Jan Necklace',
+        image: 'assets/img/products/collection-2/jan.jpg',
+        price: 30,
+        description: 'Goes with literally everything.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/542873099/',
+      },
+      {
+        name: 'Rizzo Necklace',
+        image: 'assets/img/products/collection-2/rizzo.jpg',
+        price: 32,
+        description: 'The spunky one of the bunch.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/528660418/',
+      },
+      {
+        name: 'Danny Necklace',
+        image: 'assets/img/products/collection-2/danny.jpg',
+        price: 32,
+        description: 'Bold and sweet.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/529072898/',
+      },
+      {
+        name: 'Kenickie Necklace',
+        image: 'assets/img/products/collection-2/kenickie.jpg',
+        price: 30,
+        description: 'Like a Hallmark card.',
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/542883415/',
+      },
       {
         name: 'Ice and Fire Studs',
         image: 'assets/img/products/iceandfire.png',
