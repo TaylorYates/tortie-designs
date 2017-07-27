@@ -29,6 +29,16 @@ a {
   }
 }
 
+.messenger {
+    background-color: #3B5998;
+    border-radius: 5px;
+    padding: 20px;
+    color: $white;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
 .underlined {
   text-decoration: underline;
 }
