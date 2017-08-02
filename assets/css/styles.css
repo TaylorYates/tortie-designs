@@ -37,7 +37,7 @@ a {
 .messenger {
   background-color: #3B5998;
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px 20px;
   color: #FFF;
   position: fixed;
   top: 0;
@@ -196,6 +196,10 @@ nav ul {
 
 .wholesale {
   max-width: 100%; }
+
+.shop-name {
+  font-weight: 800;
+  font-size: 20px; }
 
 .contact {
   width: 100%; }
