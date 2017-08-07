@@ -37,22 +37,11 @@ tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
       {
-        name: 'Sandy Necklace',
-        image: 'assets/img/products/collection-2/sandy.jpg',
-        price: 45,
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/542460439/',
-      },
-      {
-        name: 'Frenchy Necklace',
-        image: 'assets/img/products/collection-2/frenchy.jpg',
-        price: 40,
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/529063576/',
-      },
-      {
-        name: 'Marty Necklace',
-        image: 'assets/img/products/collection-2/marty.jpg',
-        price: 32,
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/528658860/',
+        name: 'Collection II',
+        image: 'assets/img/collection2csmall.jpg',
+        price: '30 - $45',
+        description: 'Braided cork cord, eco cord, and Grease.',
+        href: 'http://bit.ly/tortie2',
       },
       {
         name: 'Ice and Fire Studs',
@@ -61,16 +50,29 @@ tortieApp.component('home', {
         href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
       },
       {
+        name: 'Marty Necklace',
+        image: 'assets/img/products/collection-2/marty.jpg',
+        price: 32,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/528658860/',
+      },
+
+      {
+        name: 'Frenchy Necklace',
+        image: 'assets/img/products/collection-2/frenchy.jpg',
+        price: 40,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/529063576/',
+      },
+      {
+        name: 'Sandy Necklace',
+        image: 'assets/img/products/collection-2/sandy.jpg',
+        price: 45,
+        href: 'https://tortiedesigns.patternbyetsy.com/listing/542460439/',
+      },
+      {
         name: 'Glitter Bomb Necklace',
         image: 'assets/img/products/glitter-bomb.png',
         price: 32,
         href: 'https://tortiedesigns.patternbyetsy.com/listing/515569114/',
-      },
-      {
-        name: 'Sunshine Necklace',
-        image: 'assets/img/products/sunshine.png',
-        price: 32,
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/530858333/',
       }
     ];
   },
@@ -103,6 +105,13 @@ tortieApp.component('wholesale', {
 tortieApp.component('shop', {
   controller: function() {
     this.products = [
+      {
+        name: 'Collection II',
+        image: 'assets/img/collection2csmall.jpg',
+        price: '30 - $45',
+        description: 'Braided cork cord, eco cord, and Grease.',
+        href: 'http://bit.ly/tortie2',
+      },
       {
         name: 'Sandy Necklace',
         image: 'assets/img/products/collection-2/sandy.jpg',
@@ -158,6 +167,13 @@ tortieApp.component('shop', {
         price: 14.99,
         description: 'Gorgeous cool beige and rose gold bezel studs.',
         href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
+      },
+      {
+        name: 'Collection I',
+        image: 'assets/img/flatlay.jpg',
+        price: '12 - $32',
+        description: 'Bright, fun, all you need for summer.',
+        href: 'http://bit.ly/tortie1',
       },
       {
         name: 'Glitter Bomb Necklace',
