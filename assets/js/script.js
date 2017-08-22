@@ -37,7 +37,7 @@ tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
       {
-        name: 'ON SALE - 20% OFF - Sweetie',
+        name: 'ON SALE - Sweetie',
         image: 'assets/img/products/sweetie.png',
         price: '22.50',
         href: 'http://bit.ly/tortiesweetiesale',
@@ -203,9 +203,9 @@ tortieApp.component('shop', {
         href: 'https://tortiedesigns.patternbyetsy.com/listing/521152712/',
       },
       {
-        name: 'Stormy Days Necklace',
+        name: 'ON SALE - Stormy Days Necklace',
         image: 'assets/img/products/stormy-days.png',
-        price: 28,
+        price: 23,
         description: "Inspired by the all-over-the-place weather of Melbourne, Australia.",
         href: 'https://tortiedesigns.patternbyetsy.com/listing/526920977/',
       },
@@ -245,9 +245,9 @@ tortieApp.component('shop', {
         href: 'https://tortiedesigns.patternbyetsy.com/listing/512868096/',
       },
       {
-        name: 'Green Apple Necklace',
+        name: 'ON SALE - Green Apple Necklace',
         image: 'assets/img/products/green-apple.png',
-        price: 28,
+        price: 20,
         description: "Don't the green beads look like little apples?",
         href: 'https://tortiedesigns.patternbyetsy.com/listing/528137967/',
       },
@@ -259,9 +259,9 @@ tortieApp.component('shop', {
         href: 'https://tortiedesigns.patternbyetsy.com/listing/529375357/',
       },
       {
-        name: 'Pop Necklace',
+        name: 'ON SALE - Pop Necklace',
         image: 'assets/img/products/pop.png',
-        price: 28,
+        price: 20,
         description: "Reminiscent of Paddle Pops.",
         href: 'https://tortiedesigns.patternbyetsy.com/listing/514311594/',
       },
