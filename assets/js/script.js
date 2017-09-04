@@ -37,10 +37,15 @@ tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
       {
+        name: 'ON SALE - Sweetie',
+        image: 'assets/img/products/sweetie.png',
+        price: '22.50',
+        href: 'http://bit.ly/tortiesweetiesale',
+      },
+      {
         name: 'Collection II',
         image: 'assets/img/collection2csmall.jpg',
         price: '30 - $45',
-        description: 'Braided cork cord, eco cord, and Grease.',
         href: 'http://bit.ly/tortie2',
       },
       {
@@ -48,12 +53,6 @@ tortieApp.component('home', {
         image: 'assets/img/products/iceandfire.png',
         price: 14.99,
         href: 'https://tortiedesigns.patternbyetsy.com/listing/540153557/',
-      },
-      {
-        name: 'Marty Necklace',
-        image: 'assets/img/products/collection-2/marty.jpg',
-        price: 32,
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/528658860/',
       },
 
       {
@@ -105,6 +104,13 @@ tortieApp.component('wholesale', {
 tortieApp.component('shop', {
   controller: function() {
     this.products = [
+      {
+        name: 'ON SALE - Sweetie Necklace',
+        image: 'assets/img/products/sweetie.png',
+        price: '22.50',
+        description: "Compliments pretty much any outfit with a pop of pastel and neutral wooden beads.",
+        href: 'http://bit.ly/tortiesweetiesale',
+      },
       {
         name: 'Collection II',
         image: 'assets/img/collection2csmall.jpg',
@@ -197,16 +203,9 @@ tortieApp.component('shop', {
         href: 'https://tortiedesigns.patternbyetsy.com/listing/521152712/',
       },
       {
-        name: 'Sweetie Necklace',
-        image: 'assets/img/products/sweetie.png',
-        price: 30,
-        description: "Compliments pretty much any outfit with a pop of pastel and neutral wooden beads.",
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/513066904/',
-      },
-      {
-        name: 'Stormy Days Necklace',
+        name: 'ON SALE - Stormy Days Necklace',
         image: 'assets/img/products/stormy-days.png',
-        price: 28,
+        price: 22,
         description: "Inspired by the all-over-the-place weather of Melbourne, Australia.",
         href: 'https://tortiedesigns.patternbyetsy.com/listing/526920977/',
       },
@@ -246,9 +245,9 @@ tortieApp.component('shop', {
         href: 'https://tortiedesigns.patternbyetsy.com/listing/512868096/',
       },
       {
-        name: 'Green Apple Necklace',
+        name: 'ON SALE - Green Apple Necklace',
         image: 'assets/img/products/green-apple.png',
-        price: 28,
+        price: 20,
         description: "Don't the green beads look like little apples?",
         href: 'https://tortiedesigns.patternbyetsy.com/listing/528137967/',
       },
@@ -260,9 +259,9 @@ tortieApp.component('shop', {
         href: 'https://tortiedesigns.patternbyetsy.com/listing/529375357/',
       },
       {
-        name: 'Pop Necklace',
+        name: 'ON SALE - Pop Necklace',
         image: 'assets/img/products/pop.png',
-        price: 28,
+        price: 20,
         description: "Reminiscent of Paddle Pops.",
         href: 'https://tortiedesigns.patternbyetsy.com/listing/514311594/',
       },
