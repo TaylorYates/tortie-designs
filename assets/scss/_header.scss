@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
   text-align: center;
 }
@@ -43,4 +47,29 @@ nav {
 .active a {
   background-color: $white;
   color: $orange;
+}
+
+.notice-banner {
+  width: 100%;
+  background-color: $orange;
+  text-align: center;
+  display: flex;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.1rem;
+
+  @media screen and (max-width: 600px) {
+    height: 70px;
+  }
+}
+
+.mobile-hide {
+  display: none;
+
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
 }

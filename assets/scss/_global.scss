@@ -30,13 +30,18 @@ a {
 }
 
 .messenger {
-    background-color: #3B5998;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: $white;
-    position: fixed;
-    top: 0;
-    right: 0;
+  background-color: #3B5998;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: $white;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  @media screen and (max-width: 600px) {
+    top: inherit;
+    bottom: 0;
+  }
 }
 
 .underlined {
