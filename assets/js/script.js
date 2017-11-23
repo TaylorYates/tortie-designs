@@ -39,19 +39,19 @@ tortieApp.component('home', {
         {
           name: 'Glitter Bomb Necklace',
           image: 'assets/img/products/glitter-bomb.png',
-          price: 32,
+          price: '25.6 ON SALE!',
           href: 'https://tortiedesigns.patternbyetsy.com/listing/515569114/',
       },
       {
         name: 'Sandy Necklace',
         image: 'assets/img/products/collection-2/sandy-2.JPG',
-        price: 45,
+        price: '36 ON SALE!',
         href: 'https://tortiedesigns.patternbyetsy.com/listing/542460439/',
       },
       {
         name: 'Frenchy Necklace',
         image: 'assets/img/products/collection-2/frenchy-2.jpg',
-        price: 40,
+        price: '32 ON SALE!',
         href: 'https://tortiedesigns.patternbyetsy.com/listing/529063576/',
       }
     ];
