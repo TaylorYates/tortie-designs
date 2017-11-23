@@ -39,7 +39,7 @@ tortieApp.component('home', {
         {
           name: 'Glitter Bomb Necklace',
           image: 'assets/img/products/glitter-bomb.png',
-          price: '25.6 ON SALE!',
+          price: '25.60 ON SALE!',
           href: 'https://tortiedesigns.patternbyetsy.com/listing/515569114/',
       },
       {
