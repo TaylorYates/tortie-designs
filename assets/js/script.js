@@ -46,7 +46,7 @@ tortieApp.component('home', {
         name: 'Sandy Necklace',
         image: 'assets/img/products/collection-2/sandy-2.JPG',
         price: '36 ON SALE!',
-        href: 'https://tortiedesigns.patternbyetsy.com/listing/542460439/bit.ly/tortiesandy',
+        href: 'https://bit.ly/tortiesandy',
       },
       {
         name: 'Frenchy Necklace',
