@@ -4,14 +4,15 @@
 
 .media {
   @extend %grid-cell;
-  width: grid-span(4);
+  width: grid-span(12);
   text-align: center;
 
-  @media screen and (max-width: 835px) {
-    width: grid-span(12);
-  }
+  // @media screen and (max-width: 835px) {
+  //   width: grid-span(12);
+  // }
 }
 
 .item-image {
-  max-width: 300px;
+  width: auto;
+  max-width: 1000px;
 }
