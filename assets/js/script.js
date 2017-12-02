@@ -52,7 +52,7 @@ tortieApp.component('home', {
         name: 'Frenchy Necklace',
         image: 'assets/img/products/collection-2/frenchy-2.jpg',
         price: '40',
-        href: 'https://bit.ly/tortiefrenchy',
+        href: 'https://bit.ly/tdfrenchy',
       }
     ];
   },
