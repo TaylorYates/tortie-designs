@@ -157,7 +157,7 @@ tortieApp.component('shop', {
       },
       {
         name: 'Collection I',
-        image: 'assets/img/flatlay.jpg',
+        image: 'assets/img/flatlay.JPEG',
         price: '12 - $32',
         description: 'Bright, fun, all you need for summer.',
         href: 'http://bit.ly/tdcollection1',
