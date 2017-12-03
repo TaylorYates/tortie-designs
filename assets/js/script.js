@@ -49,11 +49,11 @@ tortieApp.component('home', {
         href: 'https://bit.ly/tdsandy',
       },
       {
-        name: 'Frenchy Necklace',
-        image: 'assets/img/products/collection-2/frenchy-2.jpg',
-        price: '40',
-        href: 'https://bit.ly/tdfrenchy',
-      }
+        name: 'NEW - Summer Dangles',
+        image: 'assets/img/products/summer.jpg',
+        price: '25',
+        href: 'http://bit.ly/tdsummer',
+      },
     ];
   },
   templateUrl: 'views/home.html'
@@ -86,11 +86,25 @@ tortieApp.component('shop', {
   controller: function() {
     this.products = [
       {
+        name: 'NEW - Summer Dangles',
+        image: 'assets/img/products/summer.jpg',
+        price: '25',
+        description: "Mustard, blossom pink and ocean green with pink tassles.",
+        href: 'http://bit.ly/tdsummer',
+      },
+      {
+        name: 'NEW - Gorgeous Dangles',
+        image: 'assets/img/products/gorgeous.jpg',
+        price: '25',
+        description: "Mustard, blossom pink and ocean green.",
+        href: 'http://bit.ly/tdsummer',
+      },
+      {
         name: 'ON SALE - Sweetie Necklace',
         image: 'assets/img/products/sweetie.png',
         price: '22.50',
         description: "Compliments pretty much any outfit with a pop of pastel and neutral wooden beads.",
-        href: 'http://bit.ly/tdsweetie',
+        href: 'http://bit.ly/tdgorgeous',
       },
       {
         name: 'Collection II',
