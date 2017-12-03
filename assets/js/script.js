@@ -97,14 +97,14 @@ tortieApp.component('shop', {
         image: 'assets/img/products/gorgeous.jpg',
         price: '25',
         description: "Mustard, blossom pink and ocean green.",
-        href: 'http://bit.ly/tdsummer',
+        href: 'http://bit.ly/tdgorgeous',
       },
       {
         name: 'ON SALE - Sweetie Necklace',
         image: 'assets/img/products/sweetie.png',
         price: '22.50',
         description: "Compliments pretty much any outfit with a pop of pastel and neutral wooden beads.",
-        href: 'http://bit.ly/tdgorgeous',
+        href: 'http://bit.ly/tdsweetie',
       },
       {
         name: 'Collection II',
