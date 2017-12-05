@@ -51,7 +51,7 @@ tortieApp.component('home', {
       {
         name: 'NEW - Summer Dangles',
         image: 'assets/img/products/summer.jpg',
-        price: '25',
+        price: '23',
         href: 'http://bit.ly/tdsummer',
       },
     ];
@@ -88,14 +88,14 @@ tortieApp.component('shop', {
       {
         name: 'NEW - Summer Dangles',
         image: 'assets/img/products/summer.jpg',
-        price: '25',
+        price: '23',
         description: "Mustard, blossom pink and ocean green with pink tassles.",
         href: 'http://bit.ly/tdsummer',
       },
       {
         name: 'NEW - Gorgeous Dangles',
         image: 'assets/img/products/gorgeous.jpg',
-        price: '25',
+        price: '23',
         description: "Mustard, blossom pink and ocean green.",
         href: 'http://bit.ly/tdgorgeous',
       },
