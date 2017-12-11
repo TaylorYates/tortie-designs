@@ -36,23 +36,23 @@ tortieApp.config(function($routeProvider) {
 tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
-        {
-          name: 'Glitter Bomb Necklace',
-          image: 'assets/img/products/glitter-bomb.png',
-          price: '32',
-          href: 'https://bit.ly/tortieglitter',
+      {
+        name: 'NEW - Mipha Dangles',
+        image: 'assets/img/products/mipha.jpg',
+        price: '24.50',
+        href: 'http://bit.ly/tdimpa',
+      },
+      {
+        name: 'Glitter Bomb Necklace',
+        image: 'assets/img/products/glitter-bomb.png',
+        price: '32',
+        href: 'https://bit.ly/tortieglitter',
       },
       {
         name: 'Sandy Necklace',
         image: 'assets/img/products/collection-2/sandy-2.JPG',
         price: '45',
         href: 'https://bit.ly/tdsandy',
-      },
-      {
-        name: 'NEW - Summer Dangles',
-        image: 'assets/img/products/summer.jpg',
-        price: '23',
-        href: 'http://bit.ly/tdsummer',
       },
     ];
   },
