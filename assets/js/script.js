@@ -38,7 +38,7 @@ tortieApp.component('home', {
     this.topProducts = [
       {
         name: 'NEW - Mipha Dangles',
-        image: 'assets/img/products/mipha.jpg',
+        image: 'assets/img/products/mipha.JPG',
         price: '24.50',
         href: 'http://bit.ly/tdimpa',
       },
@@ -87,21 +87,21 @@ tortieApp.component('shop', {
     this.products = [
       {
         name: 'NEW - Floria Dangles',
-        image: 'assets/img/products/floria.jpg',
+        image: 'assets/img/products/floria.JPG',
         price: '23',
         description: "Ocean Green with blossom pink flowers.",
         href: 'http://bit.ly/tdfloria',
       },
       {
         name: 'NEW - Mipha Dangles',
-        image: 'assets/img/products/mipha.jpg',
+        image: 'assets/img/products/mipha.JPG',
         price: '24.50',
         description: "Sweet rounded colourful triangles",
         href: 'http://bit.ly/tdimpa',
       },
       {
         name: 'NEW - Angel Dangles',
-        image: 'assets/img/products/angel.jpg',
+        image: 'assets/img/products/angel.JPG',
         price: '23',
         description: "Blossom pink with gold stripes.",
         href: 'http://bit.ly/tdangel',
@@ -122,21 +122,21 @@ tortieApp.component('shop', {
       },
       {
         name: 'NEW - Zora Dangles',
-        image: 'assets/img/products/zora.jpg',
+        image: 'assets/img/products/zora.JPG',
         price: '22',
         description: "Small and cute!",
         href: 'http://bit.ly/tdzora',
       },
       {
         name: 'NEW - Party Dangles',
-        image: 'assets/img/products/party-2.jpg',
+        image: 'assets/img/products/party-2.JPG',
         price: '27',
         description: "Bright coral and gold - life of the party!",
         href: 'http://bit.ly/tdparty',
       },
       {
         name: 'NEW - Impa Dangles',
-        image: 'assets/img/products/impa.jpg',
+        image: 'assets/img/products/impa.JPG',
         price: '23',
         description: "Super unique and colourful",
         href: 'http://bit.ly/tdimpa',
