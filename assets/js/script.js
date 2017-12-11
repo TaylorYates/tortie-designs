@@ -86,11 +86,60 @@ tortieApp.component('shop', {
   controller: function() {
     this.products = [
       {
+        name: 'NEW - Floria Dangles',
+        image: 'assets/img/products/floria.jpg',
+        price: '23',
+        description: "Ocean Green with blossom pink flowers.",
+        href: 'http://bit.ly/tdfloria',
+      },
+      {
+        name: 'NEW - Mipha Dangles',
+        image: 'assets/img/products/mipha.jpg',
+        price: '24.50',
+        description: "Sweet rounded colourful triangles",
+        href: 'http://bit.ly/tdimpa',
+      },
+      {
+        name: 'NEW - Angel Dangles',
+        image: 'assets/img/products/angel.jpg',
+        price: '23',
+        description: "Blossom pink with gold stripes.",
+        href: 'http://bit.ly/tdangel',
+      },
+      {
+        name: 'NEW - Fruit Salad Dangles',
+        image: 'assets/img/products/fruit-salad.jpg',
+        price: '23',
+        description: "Fruit Salad, yummy yummy!",
+        href: 'http://bit.ly/tdfruit',
+      },
+      {
         name: 'NEW - Summer Dangles',
         image: 'assets/img/products/summer.jpg',
         price: '23',
         description: "Mustard, blossom pink and ocean green with pink tassles.",
         href: 'http://bit.ly/tdsummer',
+      },
+      {
+        name: 'NEW - Zora Dangles',
+        image: 'assets/img/products/zora.jpg',
+        price: '22',
+        description: "Small and cute!",
+        href: 'http://bit.ly/tdzora',
+      },
+      {
+        name: 'NEW - Party Dangles',
+        image: 'assets/img/products/party-2.jpg',
+        price: '27',
+        description: "Bright coral and gold - life of the party!",
+        href: 'http://bit.ly/tdparty',
+      },
+      {
+        name: 'NEW - Impa Dangles',
+        image: 'assets/img/products/impa.jpg',
+        price: '23',
+        description: "Super unique and colourful",
+        href: 'http://bit.ly/tdimpa',
       },
       {
         name: 'NEW - Gorgeous Dangles',
