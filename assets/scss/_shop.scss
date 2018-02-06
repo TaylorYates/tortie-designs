@@ -8,12 +8,13 @@
   text-align: center;
   position: relative;
   margin: 10px;
-  line-height: 0.5;
 
   a {
     color: $black;
 
     @media screen and (min-width: 835px) {
+      line-height: 0.5;
+
       &:hover {
 
         img {
@@ -57,11 +58,18 @@
     }
   }
 
+  @media screen and (max-width: 945px) and (min-width: 835px) {
+    width: grid-span(5);
+  }
+
   @media screen and (max-width: 835px) {
     width: grid-span(12);
   }
 }
 
 .product-image {
-  max-width: 300px;
+  max-width: 250px;
+  @media screen and (min-width: 835px) {
+    max-width: 300px;
+  }
 }
