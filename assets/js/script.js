@@ -50,7 +50,7 @@ tortieApp.component('home', {
       },
       {
         name: 'NEW - Midna',
-        image: 'assets/img/products/midna.JPG',
+        image: 'assets/img/products/midna.jpg',
         price: '32',
         href: 'http://bit.ly/tdmidna',
       },
@@ -87,7 +87,7 @@ tortieApp.component('shop', {
     this.products = [
       {
         name: 'NEW - Midna',
-        image: 'assets/img/products/midna.JPG',
+        image: 'assets/img/products/midna.jpg',
         price: '32',
         href: 'http://bit.ly/tdmidna',
       },
