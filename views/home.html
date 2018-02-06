@@ -7,10 +7,12 @@
   <div class="product" ng-repeat="product in $ctrl.topProducts">
     <a href="{{ product.href }}" target="_blank">
       <img class="product-image" ng-src="{{ product.image }}" alt="{{ product.name }} - Tortie Designs" /><br />
-      <h3>{{ product.name }}</h3>
-      <p>
-        ${{ product.price }}
-      </p>
+      <div class="overlay">
+        <h3>{{ product.name }}</h3>
+        <p>
+          ${{ product.price }}
+        </p>
+      </div>
     </a>
   </div>
 </div>

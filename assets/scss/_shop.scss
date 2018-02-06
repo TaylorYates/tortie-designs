@@ -6,12 +6,54 @@
   @extend %grid-cell;
   width: grid-span(4);
   text-align: center;
+  position: relative;
+  margin: 10px;
+  line-height: 0.5;
 
   a {
     color: $black;
 
+    @media screen and (min-width: 835px) {
+      &:hover {
+
+        img {
+          opacity: 0.1;
+        }
+
+        .overlay {
+          display: block;
+        }
+      }
+
+      .overlay {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+      }
+    }
+
     &:hover {
       color: $orange;
+    }
+  }
+
+  &.sold-out {
+    position: relative;
+    &:before {
+      content: 'Sold out';
+      position: absolute;
+      z-index: 3;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: red;
+      color: white;
+      padding: 20px;
     }
   }
 

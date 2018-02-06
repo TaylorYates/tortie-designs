@@ -3,16 +3,18 @@
 <h1>Shop</h1>
 
 <div class="products-grid">
-  <div class="product" ng-repeat="product in $ctrl.products">
+  <div class="product {{ product.status }}" ng-repeat="product in $ctrl.products">
     <a href="{{ product.href }}" target="_blank">
-      <img class="product-image" ng-src="{{ product.image }}" alt="{{ product.name }} - Tortie Designs" /><br />
-      <h3>{{ product.name }}</h3>
-      <p>
-        ${{ product.price }}
-      </p>
-      <p>
+      <img class="product-image" ng-src="{{ product.image }}" alt="{{ product.name }} – ${{ product.price }} - Tortie Designs" /><br />
+      <div class="overlay">
+        <h3>{{ product.name }}</h3>
+        <p>
+          ${{ product.price }}
+        </p>
+      </div>
+      <!-- <p>
         {{ product.description }}
-      </p>
+      </p> -->
     </a>
   </div>
 </div>
