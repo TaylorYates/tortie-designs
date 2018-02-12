@@ -120,7 +120,6 @@ tortieApp.component('shop', {
         image: 'assets/img/products/summer.jpg',
         price: '23',
         href: 'http://bit.ly/tdsummer',
-        status: 'sold-out',
       },
       {
         name: 'NEW - Zora Dangles',
