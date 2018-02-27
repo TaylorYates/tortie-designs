@@ -86,6 +86,12 @@ tortieApp.component('shop', {
   controller: function() {
     this.products = [
       {
+        name: 'Glitter Bomb Necklace',
+        image: 'assets/img/products/glitter-bomb.png',
+        price: 32,
+        href: 'http://bit.ly/tortieglitter',
+      },
+      {
         name: 'NEW - Midna',
         image: 'assets/img/products/midna.jpg',
         price: '32',
@@ -210,12 +216,6 @@ tortieApp.component('shop', {
         image: 'assets/img/flatlay.JPEG',
         price: '12 - $32',
         href: 'http://bit.ly/tdcollection1',
-      },
-      {
-        name: 'Glitter Bomb Necklace',
-        image: 'assets/img/products/glitter-bomb.png',
-        price: 32,
-        href: 'http://bit.ly/tortieglitter',
       },
       {
         name: 'Sunshine Necklace',
