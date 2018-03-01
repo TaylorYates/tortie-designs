@@ -49,10 +49,10 @@ tortieApp.component('home', {
         href: 'https://bit.ly/tortieglitter',
       },
       {
-        name: 'NEW - Midna',
-        image: 'assets/img/products/midna.jpg',
+        name: 'NEW - Rosie Necklace',
+        image: 'assets/img/products/rosie.jpg',
         price: '32',
-        href: 'http://bit.ly/tdmidna',
+        href: 'http://bit.ly/tdrosie',
       },
     ];
   },
@@ -90,6 +90,12 @@ tortieApp.component('shop', {
         image: 'assets/img/products/glitter-bomb.png',
         price: 32,
         href: 'http://bit.ly/tortieglitter',
+      },
+      {
+        name: 'NEW - Rosie Necklace',
+        image: 'assets/img/products/rosie.jpg',
+        price: '32',
+        href: 'http://bit.ly/tdrosie',
       },
       {
         name: 'NEW - Midna',
