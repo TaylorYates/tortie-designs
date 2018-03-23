@@ -75,6 +75,9 @@ p {
   margin-bottom: 10px;
   text-align: center; }
 
+.strike {
+  text-decoration: line-through; }
+
 .page__load--fadein {
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */

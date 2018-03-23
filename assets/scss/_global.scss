@@ -80,6 +80,10 @@ p {
   text-align: center;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 .page__load--fadein {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
