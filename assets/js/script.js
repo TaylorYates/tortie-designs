@@ -37,10 +37,10 @@ tortieApp.component('home', {
   controller: function() {
     this.topProducts = [
       {
-        name: 'NEW - Mipha Dangles',
-        image: 'assets/img/products/mipha.JPG',
-        price: '24.50',
-        href: 'http://bit.ly/tdimpa',
+       name: 'Daisy dangles',
+       image: 'assets/img/products/daisy.jpg',
+       price: 27,
+       href: 'http://bit.ly/tddaisy',
       },
       {
         name: 'Glitter Bomb Necklace',
@@ -85,6 +85,12 @@ tortieApp.component('wholesale', {
 tortieApp.component('shop', {
   controller: function() {
     this.products = [
+      {
+       name: 'Daisy dangles',
+       image: 'assets/img/products/daisy.jpg',
+       price: 27,
+       href: 'http://bit.ly/tddaisy',
+      },
       {
         name: 'Glitter Bomb Necklace',
         image: 'assets/img/products/glitter-bomb.png',
