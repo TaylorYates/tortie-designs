@@ -45,13 +45,13 @@ tortieApp.component('home', {
       {
         name: 'Glitter Bomb Necklace',
         image: 'assets/img/products/glitter-bomb.png',
-        price: '32',
+        price: 32,
         href: 'https://bit.ly/tortieglitter',
       },
       {
         name: 'NEW - Rosie Necklace',
         image: 'assets/img/products/rosie.jpg',
-        price: '32',
+        price: 32,
         href: 'http://bit.ly/tdrosie',
       },
     ];
@@ -100,19 +100,19 @@ tortieApp.component('shop', {
       {
         name: 'NEW - Rosie Necklace',
         image: 'assets/img/products/rosie.jpg',
-        price: '32',
+        price: 32,
         href: 'http://bit.ly/tdrosie',
       },
       {
         name: 'NEW - Midna',
         image: 'assets/img/products/midna.jpg',
-        price: '32',
+        price: 32,
         href: 'http://bit.ly/tdmidna',
       },
       {
         name: 'NEW - Floria Dangles',
         image: 'assets/img/products/floria.JPG',
-        price: '23',
+        price: 23,
         href: 'http://bit.ly/tdfloria',
       },
       {
@@ -124,55 +124,54 @@ tortieApp.component('shop', {
       {
         name: 'NEW - Angel Dangles',
         image: 'assets/img/products/angel.JPG',
-        price: '23',
+        price: 23,
         href: 'http://bit.ly/tdangel',
       },
       {
         name: 'NEW - Fruit Salad Dangles',
         image: 'assets/img/products/fruit-salad.jpg',
-        price: '23',
+        price: 23,
         href: 'http://bit.ly/tdfruit',
       },
       {
         name: 'NEW - Summer Dangles',
         image: 'assets/img/products/summer.jpg',
-        price: '23',
+        price: 23,
         href: 'http://bit.ly/tdsummer',
       },
       {
         name: 'NEW - Zora Dangles',
         image: 'assets/img/products/zora.JPG',
-        price: '22',
+        price: 22,
         href: 'http://bit.ly/tdzora',
       },
       {
         name: 'NEW - Party Dangles',
         image: 'assets/img/products/party-2.JPG',
-        price: '27',
+        price: 27,
         href: 'http://bit.ly/tdparty',
       },
       {
         name: 'NEW - Impa Dangles',
         image: 'assets/img/products/impa.JPG',
-        price: '23',
+        price: 23,
         href: 'http://bit.ly/tdimpa',
       },
       {
         name: 'NEW - Gorgeous Dangles',
         image: 'assets/img/products/gorgeous.jpg',
-        price: '23',
+        price: 23,
         href: 'http://bit.ly/tdgorgeous',
       },
       {
         name: 'ON SALE - Sweetie Necklace',
         image: 'assets/img/products/sweetie.png',
-        price: '22.50',
+        price: 22.50,
         href: 'http://bit.ly/tdsweetie',
       },
       {
         name: 'Collection II',
         image: 'assets/img/collection2csmall.jpg',
-        price: '30 - $45',
         href: 'http://bit.ly/tdcollection2',
       },
       {
@@ -226,7 +225,6 @@ tortieApp.component('shop', {
       {
         name: 'Collection I',
         image: 'assets/img/flatlay.JPEG',
-        price: '12 - $32',
         href: 'http://bit.ly/tdcollection1',
       },
       {
