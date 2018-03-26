@@ -54,6 +54,24 @@ tortieApp.component('home', {
         price: 32,
         href: 'http://bit.ly/tdrosie',
       },
+      {
+        name: 'Lutum dangles',
+        image: 'assets/img/products/lutum.png',
+        price: 25,
+        href: 'http://bit.ly/tdlutum',
+      },
+      {
+        name: 'NEW - Mipha Dangles',
+        image: 'assets/img/products/mipha.JPG',
+        price: 24.50,
+        href: 'http://bit.ly/tdimpa',
+      },
+      {
+        name: 'Sandy Necklace',
+        image: 'assets/img/products/collection-2/sandy.jpg',
+        price: 45,
+        href: 'https://bit.ly/tdsandy',
+      },
     ];
   },
   templateUrl: 'views/home.html'
@@ -85,6 +103,12 @@ tortieApp.component('wholesale', {
 tortieApp.component('shop', {
   controller: function() {
     this.products = [
+      {
+        name: 'Lutum dangles',
+        image: 'assets/img/products/lutum.png',
+        price: 25,
+        href: 'http://bit.ly/tdlutum',
+      },
       {
        name: 'Daisy dangles',
        image: 'assets/img/products/daisy.jpg',
@@ -118,7 +142,7 @@ tortieApp.component('shop', {
       {
         name: 'NEW - Mipha Dangles',
         image: 'assets/img/products/mipha.JPG',
-        price: '24.50',
+        price: 24.50,
         href: 'http://bit.ly/tdimpa',
       },
       {
