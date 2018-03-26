@@ -8,11 +8,8 @@
       <img class="product-image" ng-src="{{ product.image }}" alt="{{ product.name }} – ${{ product.price }} - Tortie Designs" /><br />
       <div class="overlay">
         <h3>{{ product.name }}</h3>
-        <p ng-if="product.price" class="strike">
-          ${{ product.price }}
-        </p>
         <p ng-if="product.price">
-          ${{ (product.price / 4) * 3 | number:2 }}
+          ${{ product.price }}
         </p>
       </div>
       <!-- <p>
