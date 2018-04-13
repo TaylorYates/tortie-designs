@@ -135,6 +135,11 @@ h3 {
   margin-top: 10px;
   margin-bottom: 0; }
 
+h4 {
+  text-align: center;
+  background: #f7BE7B;
+  padding: 20px 20px; }
+
 .ldh {
   text-align: center;
   font-size: 14px;
