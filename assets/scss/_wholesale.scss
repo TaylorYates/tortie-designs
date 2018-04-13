@@ -1,8 +1,24 @@
 .wholesale {
   max-width: 100%;
+  @extend %grid;
 }
 
 .shop-name {
     font-weight: 800;
     font-size: 20px;
+}
+
+p.stockist {
+  @extend %grid-cell;
+  width: grid-span(6);
+  text-align: center;
+
+  a {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: grid-span(12);
+    text-align: left;
+  }
 }

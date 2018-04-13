@@ -1,16 +1,16 @@
-main, .content, .product-grid, .block, .media-grid {
+main, .content, .product-grid, .wholesale, .block, .media-grid {
   text-align: justify !important;
   text-justify: distribute-all-lines;
   font-size: 0 !important; }
-  main > *, .content > *, .product-grid > *, .block > *, .media-grid > * {
+  main > *, .content > *, .product-grid > *, .wholesale > *, .block > *, .media-grid > * {
     text-align: left;
     font-size: medium; }
-  main:after, .content:after, .product-grid:after, .block:after, .media-grid:after {
+  main:after, .content:after, .product-grid:after, .wholesale:after, .block:after, .media-grid:after {
     content: '';
     display: inline-block;
     width: 100%; }
 
-.product, .block__tile, .media {
+.product, p.stockist, .block__tile, .media {
   vertical-align: top;
   display: inline-block;
   width: 100%; }
@@ -272,6 +272,16 @@ nav ul {
 .shop-name {
   font-weight: 800;
   font-size: 20px; }
+
+p.stockist {
+  width: 48.34437%;
+  text-align: center; }
+  p.stockist a {
+    text-decoration: underline; }
+  @media screen and (max-width: 750px) {
+    p.stockist {
+      width: 100%;
+      text-align: left; } }
 
 .contact {
   width: 100%; }
