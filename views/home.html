@@ -4,7 +4,7 @@
 
 <h2>Our favourites:</h2>
 <div class="products-grid">
-  <div class="product" ng-repeat="product in $ctrl.topProducts">
+  <div class="product {{ product.status }}" ng-repeat="product in $ctrl.topProducts">
     <a href="{{ product.href }}" target="_blank">
       <img class="product-image" ng-src="{{ product.image }}" alt="{{ product.name }} - Tortie Designs" /><br />
       <div class="overlay">
