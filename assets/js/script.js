@@ -272,7 +272,6 @@ tortieApp.component('shop', {
         image: 'assets/img/products/glam-studs.png',
         price: 12,
         href: 'http://bit.ly/tdglams',
-        status: 'sold-out',
       },
       {
         name: 'Love Studs',
