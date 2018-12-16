@@ -50,6 +50,14 @@ a {
 .underlined {
   text-decoration: underline; }
 
+.promo-banner {
+  border: 10px #f7BE7B solid;
+  color: #f7BE7B;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-weight: 900; }
+
 h1 {
   font-size: 40px; }
 

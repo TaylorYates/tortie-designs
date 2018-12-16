@@ -48,6 +48,15 @@ a {
   text-decoration: underline;
 }
 
+.promo-banner {
+  border: 10px $orange solid;
+  color: $orange;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-weight: 900;
+}
+
 h1 {
   font-size: 40px;
 }
